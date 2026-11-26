@@ -1,5 +1,7 @@
 # Sender Domain Health: SPF, DKIM & DMARC Check and Monitor
 
+🇮🇹 **In italiano:** controlla SPF, DKIM e DMARC di un dominio dal DNS pubblico e avvisa quando cambiano; eseguito su 23 domini reali. [Apri la pagina in italiano](https://errer441122.github.io/sender-domain-health/?lang=it)
+
 An **n8n** workflow that reads the DNS records every B2B sender depends on, grades them with fixed rules, and alerts when they change. It needs no credentials for the checks: it reads what any mailbox provider reads, from public DNS.
 
 **[Check any domain live](https://errer441122.github.io/sender-domain-health/)** · **[Download the workflow](workflows/sender-domain-health.n8n.json)** · **[Every rule in plain words](docs/rules.md)**
